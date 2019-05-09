@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Layouts="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/settings_id"
+        android:title="Settings"
+        Layouts:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/about_id"
+        android:title="About Us"
+        Layouts:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/contact_id"
+        android:title="Contact Us"
+        android:onClick=""
+        Layouts:showAsAction="always"
+        />
+</menu>
